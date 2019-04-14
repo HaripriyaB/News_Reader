@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haripriya.rss_reader.CategoryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/new_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/textColorLinkInverse"
+        app:titleTextColor="@android:color/holo_blue_bright"></android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/submit"
+        android:textColor="?attr/colorError"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentRight="true" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/new_toolbar"
+        android:layout_alignParentLeft="true">
+
+        <RadioButton
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/top_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/world_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/business_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/political_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/entertainment_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lifestyle_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/technology_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/science_and_environment_news"
+            android:textColor="?attr/colorError" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sports News"
+            android:textColor="?attr/colorError" />
+    </RadioGroup>
+
+</RelativeLayout>

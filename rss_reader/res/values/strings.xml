@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">RSS_READER</string>
+    <string name="logout">Logout</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="welcome_to_top_10_news">Welcome to Top 10 News</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="log_out">LogOut</string>
+    <string name="refresh">Refresh</string>
+    <string name="searchicon">searchicon</string>
+    <string name="submit">Submit</string>
+    <string name="top_news">Top News</string>
+    <string name="world_news">World News</string>
+    <string name="business_news">Business News</string>
+    <string name="political_news">Political News</string>
+    <string name="technology_news">Technology News</string>
+    <string name="science_and_environment_news">Science and Environment News</string>
+    <string name="india_top_news">India Top News</string>
+    <string name="entertainment_news">Entertainment News</string>
+    <string name="lifestyle_news">Lifestyle News</string>
+    <string name="title">Title</string>
+    <string name="view_source_page">View Source Page</string>
+    <string name="click_for_more">Click for more:</string>
+    <string name="speak">speak</string>
+    <string name="pauser">pauser</string>
+    <string name="welcome_to_news_aggregator">Welcome To News Aggregator</string>
+    <string name="user">User</string>
+    <string name="commenttexthere">commenttexthere</string>
+    <string name="_0000_00_00_00_00am">0000–00–00 00:00am</string>
+    <string name="type_comment_here">Type Comment Here</string>
+    <string name="desc">Description</string>
+    <string name="content">Content</string>
+
+    <string name="textcomment">textcomment</string>
+    <string name="title_activity_commenting">CommentingActivity</string>
+    <string name="type_your_comment">Type your comment</string>
+
+
+</resources>
